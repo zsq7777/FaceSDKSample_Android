@@ -14,10 +14,13 @@
         android:id="@+id/detect_face_round"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
     <Button
+        android:layout_alignParentBottom="true"
+        android:text="切换摄像头"
         android:id="@+id/btnChangeLens"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
     <ImageView
         android:id="@+id/detect_close"
