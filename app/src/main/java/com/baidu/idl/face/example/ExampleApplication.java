@@ -16,7 +16,6 @@ public class ExampleApplication extends Application {
     // 动作活体条目集合
     public static List<LivenessTypeEnum> livenessList = new ArrayList<>();
     // 活体随机开关
-
     public static boolean isLivenessRandom = true;
     // 语音播报开关
     public static boolean isOpenSound = false;
